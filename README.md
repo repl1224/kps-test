@@ -2,26 +2,27 @@
 
 ## 과제 1.
 - 샘플로 제공된 Spring boot 프로젝트를 사용하였습니다. h2 DB는 Oracle 모드를 사용하였습니다.
+- sts에 프로젝트 import 한 후 spring boot app을 통해 기동가능합니다.
 
 문제 1.
 - jdbcTemplate을 사용하여 쿼리를 통해 결과값을 가져왔습니다. 그룹함수를 통해 합계 금액을 구한다음
   년도별로 합계 금액으로 소팅하여 로우넘을 준 다음 첫번째 조회된 값들만 리턴하여 결과값을 구했습니다.
-- src/test/java 경로 밑에 com.kpsec.test 패키지 안에 ApiTest1.Java로 Unit Test 가능합니다.
+- src/test/java 경로 밑에 com.kpsec.test 패키지 안에 ApiTest1.Java로 JUnit Test 가능합니다.
   
 문제 2.
 - jdbcTemplate을 사용하여 쿼리를 통해 결과값을 가져왔습니다. NOT EXISTS를 사용하여 각 년도별
   거래내역 테이블에 없는 계좌 정보를 조회하여 결과값을 구했습니다.
-- src/test/java 경로 밑에 com.kpsec.test 패키지 안에 ApiTest2.Java로 Unit Test 가능합니다.
+- src/test/java 경로 밑에 com.kpsec.test 패키지 안에 ApiTest2.Java로 JUnit Test 가능합니다.
 
 문제 3.
 - 쿼리를 통해 년도별 각 관리점의 거래금액 합계를 합계금액이 큰 순서로 조회해온 후,
   자바코딩으로 요구조건에 맞는 JSON 형식으로 변환하여 결과값을 구했습니다.
-- src/test/java 경로 밑에 com.kpsec.test 패키지 안에 ApiTest3.Java로 Unit Test 가능합니다.
+- src/test/java 경로 밑에 com.kpsec.test 패키지 안에 ApiTest3.Java로 JUnit Test 가능합니다.
   
 문제 4.
 - 쿼리를 통해 관리점별 거래금액 합계 정보를 조회해와서 자바코딩으로 조건에 따라 분기하여
   결과값을 만들어 반환했습니다.
-- src/test/java 경로 밑에 com.kpsec.test 패키지 안에 ApiTest4.Java로 Unit Test 가능합니다.
+- src/test/java 경로 밑에 com.kpsec.test 패키지 안에 ApiTest4.Java로 JUnit Test 가능합니다.
   
 ## 과제 2.
 - src/test/java 경로 밑에 algorithm 패키지에 소스코드가 있습니다.
